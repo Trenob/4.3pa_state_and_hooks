@@ -10,7 +10,7 @@ function FormInput() {
     return (
         <div>
             <input id="inputTxt" type="text" defaultValue={textInForm} onChange={changeText} />
-            <p>You entered: <br/>{textInForm}</p>
+            <p>You're text entry was: <br/>{textInForm}</p>
         </div>
     );
     

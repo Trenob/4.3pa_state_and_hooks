@@ -20,7 +20,7 @@ function Counter() {
 
     return (
         <>
-            <button style={{backgroundColor: 'aquamarine', padding: '10px'}} onClick={incrementCount}>Increment</button>
+            <button style={{backgroundColor: 'gold', padding: '10px'}} onClick={incrementCount}>Increment</button>
             <div style={{color: 'ivory', padding: '15px'}} >{curCount}</div>
             <button style={{backgroundColor: 'indianred', padding: '10px'}} onClick={decrementCount}>Decrement</button>
         </>
